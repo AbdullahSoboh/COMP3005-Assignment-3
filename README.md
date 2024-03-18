@@ -39,7 +39,7 @@ This application is designed to manage student records in a PostgreSQL database.
 
 ## Demonstration Video
 
-A video demonstrating the setup of the database and the execution of each function in the application is available [here](https://youtu.be/1taQobn-kR4). This video shows how to perform INSERT, UPDATE, and DELETE operations and their effects on the database using pgAdmin.
+A video demonstrating the setup of the database and the execution of each function in the application is available [here](https://youtu.be/1taQobn-kR4). This video shows how to perform GET, INSERT, UPDATE, and DELETE operations and their effects on the database using pgAdmin.
 
 ## Additional Notes
 
