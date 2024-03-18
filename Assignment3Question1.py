@@ -3,6 +3,7 @@ from psycopg2 import sql
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
 def connect_db():
+    #Connecting to the datebase
     try:
         conn = psycopg2.connect(
             dbname='school',
@@ -103,10 +104,10 @@ def deleteStudent(student_id):
 
 if __name__ == "__main__":
     # Test the functionality of CRUD operations
-    #getAllStudents()
-    #addStudent('Abdullah', 'Soboh', 'abood@carletoniscool.com', '1920-10-01')
-    #getAllStudents()
-    #updateStudentEmail(15, 'newabood@example.com')
-    #getAllStudents()
+    getAllStudents()
+    addStudent('Abdullah', 'Soboh', 'abood@carletoniscool.com', '1920-10-01')
+    getAllStudents()
+    updateStudentEmail(15, 'newabood@example.com')
+    getAllStudents()
     deleteStudent(17)
     getAllStudents()
